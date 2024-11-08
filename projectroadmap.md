@@ -2,10 +2,10 @@
 
 ## Tasks and Notes
 
-- [ ] **Add to Project Spreadsheet**
+- [x] **Add to Project Spreadsheet**
   - *Notes:* Ensure all team members are listed with roles assigned for specific tasks.
 
-- [ ] **Set Up GitHub Repository**
+- [x] **Set Up GitHub Repository**
   - *Notes:* Create a repository under the class organization (KSU-IS) for EasyMeal. Ensure all team members have Owner or Maintainer roles.
 
 - [ ] **Add Example Code for Meal Planning and Test It**

@@ -1,8 +1,5 @@
 # EasyMeal Project Roadmap
-
-## Tasks and Notes
-
-------
+--------
 
 ## Objective
 Develop a meal-planning app that lets users input pantry items, select recipes, and auto-generates grocery lists based on missing ingredients.

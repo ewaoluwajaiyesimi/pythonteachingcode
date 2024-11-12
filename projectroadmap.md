@@ -12,7 +12,7 @@ Develop a meal-planning app that lets users input pantry items, select recipes, 
 
 - [x] **Add to Project Spreadsheet**
   - **Notes:** Ensure all team members are listed with roles assigned for specific tasks.
-  - **Assigned to:** @Kristyn Navarro
+  - **Assigned to:** @KristynNavarro
 
 - [x] **GitHub Repository Setup**
   - **Assigned to:** Ewaoluwa Jaiyesimi

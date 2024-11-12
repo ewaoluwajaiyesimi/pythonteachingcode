@@ -2,36 +2,69 @@
 
 ## Tasks and Notes
 
+------
+
+## Objective
+Develop a meal-planning app that lets users input pantry items, select recipes, and auto-generates grocery lists based on missing ingredients.
+
+---
+
+## Phase 1: Initial Setup & Research  
+
+### Tasks
+
 - [x] **Add to Project Spreadsheet**
-  - *Notes:* Ensure all team members are listed with roles assigned for specific tasks.
+  - **Notes:** Ensure all team members are listed with roles assigned for specific tasks.
+  - **Assigned to:** Kristyn Navarro
 
-- [x] **Set Up GitHub Repository**
-  - *Notes:* Create a repository under the class organization (KSU-IS) for EasyMeal. Ensure all team members have Owner or Maintainer roles.
+- [x] **GitHub Repository Setup**
+  - **Assigned to:** Ewaoluwa Jaiyesimi
+  - **Tasks:**
+    - Create a public repository under `KSU-IS` named "EasyMeal."
+    - Add team members as Owners
+    
 
-- [ ] **Add Example Code for Meal Planning and Test It**
-  - *Notes:* Located a meal planning codebase. Followed the README instructions and ran it successfully with `python -m flask run`. Document findings in the project roadmap.
+- [x] **Research and Clone Related Repository**
+  - **Assigned to:** Ewaoluwa Jaiyesimi
+  - **Tasks:**
+    - Identify, evaluate, and clone a similar meal-planning repository.
+    - Document key findings and add to roadmap.
 
-- [ ] **Define Needed Components**
-  - *Notes:* Components will include a database for ingredients and recipes, HTML templates for app pages, and Python code for managing user preferences, budget, and grocery list.
+- [ ] **Add and Test Example Code**
+  - **Assigned to:** Kristyn Navarro
+  - **Tasks:**
+    - Run sample code with `python -m flask run`.
+    - Document test results and setup steps in README.
 
-- [ ] **Create Workflow**
-  - *Notes:* Documented the workflow in the project documentation. Assigned @username to review for necessary updates.
+- [ ] **Draft Initial README and Project Documentation**
+  - **Assigned to:** Both team members
+  - **Tasks:**
+    - Use Markdown to write a README with project overview and usage instructions.
 
-- [ ] **Create Database for Ingredients and Recipes** - 
-  - *Notes:* Need to add cost per ingredient for budgeting. Sample codes from the Inventory Management System can be adapted to include pricing details.
+---
 
-- [ ] **Develop Core Python Code for EasyMeal App** 
-  - *Notes:* Referencing `app.py` from a similar project for structure. Final application file named `easymeal_app.py`.
+## Phase 2: Core Development  
 
-- [ ] **Create HTML and CSS Templates for Flask Pages**
-  - [ ] User Form
-  - [ ] Results Page
-  - [ ] Log-in
-  - [ ] Home Screen
-  - [ ] Add Recipe
-  - [ ] Manage User Inventory
-  - [ ] Manage Budget
-  - [ ] Select Weekly Meal Plans
-  - [ ] Generate Grocery List
-  - *Notes:* HTML and CSS templates designed to create a user-friendly interface that aligns with the app’s branding.
+### Backend and Data Management
+- [ ] **Set Up Database for Ingredients and Recipes**
+  - **Assigned to:** Kristyn Navarro
+  - **Tasks:**
+    - Design database structure with fields for cost, quantity, and nutrition info.
+    - Implement cost tracking for grocery budgeting.
 
+- [ ] **Develop Core Python App Logic**
+  - **Assigned to:** Ewaoluwa Jaiyesimi
+  - **Tasks:**
+    - Build `easymeal_app.py` with functions for recipe filtering and grocery list generation.
+
+---
+
+## Phase 3: Frontend and User Interface
+
+### UI Templates
+- [ ] **Create HTML/CSS Templates for Key Pages**
+  - **Assigned to:** Both team members
+  - **Templates Needed:**
+    - User Input Form
+    - Recipe Selection Results
+    - Grocery List Display
